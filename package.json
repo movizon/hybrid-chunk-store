@@ -1,0 +1,49 @@
+{
+  "name": "@movizon/hybrid-chunk-store",
+  "version": "1.0.0",
+  "description": "Cross-browser hybrid chunk store, which allows you to store as much data as possible.",
+  "main": "src/index.js",
+  "license": "MIT",
+  "type": "module",
+  "author": {
+    "name": "Richard T",
+    "email": "richard@movizon.org",
+    "url": "https://www.movizon.org"
+  },
+  "contributors": [
+    "Richard T <richard@movizon.org> (https://www.movizon.org)"
+  ],
+  "standard": {
+    "ignore": "hybridchunkstore.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+github.com/movizon/hybrid-chunk-store.git"
+  },
+  "bugs": {
+    "url": "https://github.com/movizon/hybrid-chunk-store/issues"
+  },
+  "homepage": "https://github.com/movizon/hybrid-chunk-store#readme",
+  "keywords": [
+    "abstract-chunk-store",
+    "chunk",
+    "fs-access-api",
+    "indexed-db",
+    "hybrid"
+  ],
+  "scripts": {
+    "test": "standard"
+  },
+  "dependencies": {
+    "@movizon/fsa-chunk-store": "^1.0.0",
+    "cache-chunk-store": "^3.2.2",
+    "idb-chunk-store": "^1.0.1",
+    "memory-chunk-store": "^1.3.5"
+  },
+  "devDependencies": {
+    "abstract-chunk-store": "^1.5.0",
+    "babel-minify": "^0.5.1",
+    "browserify": "^17.0.0",
+    "standard": "^16.0.3"
+  }
+}
